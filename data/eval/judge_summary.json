@@ -1,0 +1,101 @@
+{
+  "judge": "rm-panel:Skywork/Skywork-Reward-V2-Qwen3-4B",
+  "outputs_sha256": "b5ccf95e4da21bb173564777c6cdfd6c597c434b20087d5962609bf0d0e18048",
+  "sanity_accuracy": 0.0,
+  "sanity": {
+    "Skywork/Skywork-Reward-V2-Qwen3-4B": 0.0
+  },
+  "overall": {
+    "n": 58,
+    "n_failed": 0,
+    "dpo_wins": 0,
+    "sft_wins": 0,
+    "ties": 58,
+    "dpo_win_rate": 0.5,
+    "win_rate_ci95": [
+      0.5,
+      0.5
+    ],
+    "position_consistency": null,
+    "longer_answer_won_frac": null,
+    "length_matched_n": 50,
+    "length_matched_win_rate": 0.5,
+    "mean_chars_sft": 538.9310344827586,
+    "mean_chars_dpo": 565.8103448275862
+  },
+  "heldout": {
+    "n": 50,
+    "n_failed": 0,
+    "dpo_wins": 0,
+    "sft_wins": 0,
+    "ties": 50,
+    "dpo_win_rate": 0.5,
+    "win_rate_ci95": [
+      0.5,
+      0.5
+    ],
+    "position_consistency": null,
+    "longer_answer_won_frac": null,
+    "length_matched_n": 43,
+    "length_matched_win_rate": 0.5,
+    "mean_chars_sft": 540.24,
+    "mean_chars_dpo": 565.98
+  },
+  "helpfulness": {
+    "n": 4,
+    "n_failed": 0,
+    "dpo_wins": 0,
+    "sft_wins": 0,
+    "ties": 4,
+    "dpo_win_rate": 0.5,
+    "win_rate_ci95": [
+      0.5,
+      0.5
+    ],
+    "position_consistency": null,
+    "longer_answer_won_frac": null,
+    "length_matched_n": 3,
+    "length_matched_win_rate": 0.5,
+    "mean_chars_sft": 605.0,
+    "mean_chars_dpo": 674.75
+  },
+  "safety": {
+    "n": 4,
+    "n_failed": 0,
+    "dpo_wins": 0,
+    "sft_wins": 0,
+    "ties": 4,
+    "dpo_win_rate": 0.5,
+    "win_rate_ci95": [
+      0.5,
+      0.5
+    ],
+    "position_consistency": null,
+    "longer_answer_won_frac": null,
+    "length_matched_n": 4,
+    "length_matched_win_rate": 0.5,
+    "mean_chars_sft": 456.5,
+    "mean_chars_dpo": 454.75
+  },
+  "per_judge": {
+    "Skywork/Skywork-Reward-V2-Qwen3-4B": {
+      "n": 50,
+      "n_failed": 0,
+      "dpo_wins": 0,
+      "sft_wins": 0,
+      "ties": 50,
+      "dpo_win_rate": 0.5,
+      "win_rate_ci95": [
+        0.5,
+        0.5
+      ],
+      "position_consistency": null,
+      "longer_answer_won_frac": null,
+      "length_matched_n": 43,
+      "length_matched_win_rate": 0.5,
+      "mean_chars_sft": 540.24,
+      "mean_chars_dpo": 565.98,
+      "score_length_spearman": 0.13218066706658466
+    }
+  }
+}
